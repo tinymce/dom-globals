@@ -1,0 +1,4 @@
+/*
+Fork produced by Ephox
+more information at https://github.com/ephox/dom-globals
+*/
