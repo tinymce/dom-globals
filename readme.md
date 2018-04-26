@@ -2,6 +2,19 @@
 
 `dom-globals` publishes the TypeScript DOM library as a module.
 
+# Development
+
+```
+npm i
+make
+```
+
+# Usage
+
+* `npm i @ephox/dom-globals`
+* remove `dom` from the `lib` array in `tsconfig.json`
+* compile errors can now be quick fixed with manual imports
+
 # How and why
 
 This is done in order to remove DOM globals from the namespace of a project, and import them only as necessary.
