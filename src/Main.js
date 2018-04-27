@@ -17,7 +17,11 @@ export {
     // global types
     CSSRule,
     FileReader,
-    Image, HTMLImageElement,
+    HTMLBodyElement,
+    HTMLDocument,
+    HTMLImageElement,
+    Image,
     Node,
-    URL, ObjectURLOptions
+    ObjectURLOptions,
+    URL,
 }

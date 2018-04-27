@@ -13,6 +13,7 @@
   "author": "Ephox Corporation",
   "license": "Apache-2.0",
   "devDependencies": {
+    "@types/node": "^10.0.0",
     "typescript": "^2.8.3"
   },
   "files": [
