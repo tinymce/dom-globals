@@ -1,11 +1,15 @@
 OUTPUT=lib/main/ts/ephox/dom-globals/api
+LIBDOM=node_modules/typescript/lib/lib.dom.d.ts
+GENMODULE=gen/Main.js
 
-default:
+default: setup makeExport
+	cat src/prefix.txt ${LIBDOM} ${GENMODULE} | grep -v '/// <reference' > ${OUTPUT}/Main.d.ts
+	cp ${GENMODULE} ${OUTPUT}
+
+setup:
 	rm -rf lib
 	mkdir -p ${OUTPUT}
-	cat src/prefix.txt node_modules/typescript/lib/lib.dom.d.ts src/Main.js | grep -v '/// <reference' > ${OUTPUT}/Main.d.ts
-	cp src/Main.js ${OUTPUT}
 
-libdom:
+makeExport:
 	tsc
-	node gen/makeModule.js
+	node gen/makeModule.js > ${GENMODULE}

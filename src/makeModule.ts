@@ -1,7 +1,7 @@
 import * as ts from "typescript";
 
 // TODO: This API can probably help us edit the libdom.d.ts file instead of using grep and cat
-const LIBDOM = 'lib/main/ts/ephox/dom-globals/api/Main.d.ts';
+const LIBDOM = 'node_modules/typescript/lib/lib.dom.d.ts';
 
 const prog = ts.createProgram([LIBDOM], {});
 const ast = prog.getSourceFile(LIBDOM);
