@@ -18,8 +18,6 @@
   },
   "files": [
     "lib",
-    "src",
-    "tsconfig.json",
     "readme.md",
     "LEGAL.txt",
     "CHANGELOG.txt",
