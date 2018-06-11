@@ -1,8 +1,8 @@
 import * as ts from "typescript";
 
-// TODO: This API can probably help us edit the libdom.d.ts file instead of using grep and cat
 const LIBDOM = 'node_modules/typescript/lib/lib.dom.d.ts';
 
+// TODO: This API can probably help us edit the libdom.d.ts file instead of using grep, cat and stdout redirect
 const prog = ts.createProgram([LIBDOM], {});
 const ast = prog.getSourceFile(LIBDOM);
 
