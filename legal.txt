@@ -1,0 +1,8 @@
+Published copies of this repository include a modified file (lib.dom.d.ts) from
+the Microsoft TypeScript project. The version is injected below during the build.
+
+Dependency:
+  name: TypeScript
+  version: ${TSVERSION}
+  repository: https://github.com/Microsoft/TypeScript
+  licenses: Apache 2.0

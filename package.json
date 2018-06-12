@@ -7,14 +7,15 @@
     "url": "https://github.com/ephox/dom-globals"
   },
   "scripts": {
-    "prepublishOnly": "make",
+    "prepublishOnly": "make prePublish",
+    "postpublish": "make postPublish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ephox Corporation",
   "license": "Apache-2.0",
   "devDependencies": {
-    "@types/node": "^10.0.0",
-    "typescript": "^2.8.3"
+    "@types/node": "latest",
+    "typescript": "latest"
   },
   "files": [
     "lib",
