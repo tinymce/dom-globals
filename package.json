@@ -20,9 +20,8 @@
   "files": [
     "lib",
     "readme.md",
-    "LEGAL.txt",
-    "CHANGELOG.txt",
-    "LICENSE.txt"
+    "legal.txt",
+    "license.txt"
   ],
   "main": "./lib/main/ts/ephox/dom-globals/api/Main.js",
   "module": "./lib/main/ts/ephox/dom-globals/api/Main.js",
