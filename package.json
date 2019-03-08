@@ -14,7 +14,7 @@
   "author": "Ephox Corporation",
   "license": "Apache-2.0",
   "devDependencies": {
-    "@types/node": "latest",
+    "@types/node": "^11.10.5",
     "typescript": "2.9.2"
   },
   "files": [
