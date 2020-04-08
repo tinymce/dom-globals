@@ -1,6 +1,6 @@
 {
   "name": "@ephox/dom-globals",
-  "version": "1.1.1",
+  "version": "3.8.3",
   "description": "TypeScript definitions for DOM globals, to avoid linking to the TypeScript DOM library directly",
   "repository": {
     "type": "git",
@@ -14,8 +14,8 @@
   "author": "Ephox Corporation",
   "license": "Apache-2.0",
   "devDependencies": {
-    "@types/node": "^11.10.5",
-    "typescript": "2.9.2"
+    "@types/node": "^13.11.0",
+    "typescript": "3.8.3"
   },
   "files": [
     "lib",
